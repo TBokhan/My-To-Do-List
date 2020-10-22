@@ -128,20 +128,7 @@ ul.todo#completed li {
     
 }
 
-@media(max-width: 768px){
-    header input {
-        width: 57%;
-    }
-    ul.todo {
-        width: 93%;
-    }
-    ul.todo li {
-        width: 91%;
-    }
-
-}
-
-@media(max-width: 426px)  {
+@media(max-width: 768px)  {
     h1 {
         font-size: 142px;
         margin-top: 20px;
@@ -152,7 +139,7 @@ ul.todo#completed li {
     }
    
     header input {
-        font-size: 22px;
+        font-size: 18px;
         height: 55px;
     }
     header button {
@@ -161,7 +148,7 @@ ul.todo#completed li {
         right: 35px;
     }
 }
-@media(max-width: 376px)  {
+@media(max-width: 425px)  {
     h1 {
         font-size: 125px;
 
@@ -170,7 +157,7 @@ ul.todo#completed li {
         height: 35px;
    }
     header input {
-        font-size: 18px;
+        font-size: 12px;
         height: 35px;
     }
     header button {
@@ -182,7 +169,7 @@ ul.todo#completed li {
         right: 44px;
     }
 }
-@media(max-width: 321px) {
+@media(max-width: 375px) {
     h1 {
         font-size: 106px;
         margin-top: 33px;
@@ -194,6 +181,7 @@ ul.todo#completed li {
     header input {
         font-size: 15px;
         height: 30px;
+        width: 60%;
     }
     header button {
         width: 25px;
@@ -204,4 +192,6 @@ ul.todo#completed li {
         font-size: 15px;
         
     }
+
+    
 }
